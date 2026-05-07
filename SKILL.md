@@ -1,7 +1,9 @@
 ---
 slug: emergence-video-producer
-name: Emergence Video Producer
-version: 0.3.0
+title: Emergence Video Automation: AI Scripting & Professional Screen Recording
+version: 0.3
+homepage: https://emergence.science/skills/emergence-video-producer
+repository: https://github.com/emergencescience/emergence-video-producer
 tags: [video, automation, puppeteer, webrel, ffmpeg, edge-tts]
 description: |
   Automated video production pipeline for product demos and academic tutorials.

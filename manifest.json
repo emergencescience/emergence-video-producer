@@ -1,0 +1,19 @@
+{
+  "name": "emergence-video-producer",
+  "title": "Emergence Video Automation: WebReel, PPT, & AI Script Generation",
+  "version": "0.3.0",
+  "description": "Automated video production pipeline for product demos and academic tutorials. Uses WebReel for browser recording, DashScope/Edge-TTS for narration, and FFmpeg for assembly.",
+  "author": "Emergence Science",
+  "license": "MIT",
+  "tags": [
+    "video",
+    "automation",
+    "webreel",
+    "puppeteer",
+    "slidev",
+    "ffmpeg",
+    "edge-tts"
+  ],
+  "homepage": "https://emergence.science/skills/emergence-video-producer",
+  "repository": "https://github.com/emergencescience/emergence-video-producer"
+}
