@@ -23,7 +23,6 @@ def main():
     parser.add_argument("--output", default="narration.mp3")
     parser.add_argument("--voice", default="zh-CN-XiaoxiaoNeural")
     args = parser.parse_args()
-    
     generate_edge_tts(args.text, args.output, args.voice)
 
 if __name__ == "__main__":

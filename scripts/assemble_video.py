@@ -8,7 +8,6 @@ def extract_frames(webp_path, output_dir):
     img = Image.open(webp_path)
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
-    
     count = 0
     for i, frame in enumerate(ImageSequence.Iterator(img)):
         frame.save(os.path.join(output_dir, f"frame_{i:04d}.png"))
@@ -42,11 +41,9 @@ def main():
     parser.add_argument("--audio", required=True)
     parser.add_argument("--output", default="final_video.mp4")
     args = parser.parse_args()
-    
     temp_frame_dir = "temp_frames"
     frame_count = extract_frames(args.webp, temp_frame_dir)
     audio_duration = get_audio_duration(args.audio)
-    
     fps = frame_count / audio_duration
     assemble_mp4(temp_frame_dir, args.audio, args.output, fps)
 
